@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # ✅ Load model ONCE (important)
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
 @app.route('/')
 def home():
